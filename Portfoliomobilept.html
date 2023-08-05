@@ -1,0 +1,206 @@
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE 10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE 10 */
+      flex-wrap: wrap;
+      padding: 0 100px;
+    }
+    
+    .h1 {
+    font-size: large;
+    color: white;
+    font-family: serif;
+    
+    }
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .headerr h1 {
+    margin-top: 30%;
+    font-size:60px;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .topphoto img {
+
+     align-content: center;
+     width: 100%;
+     margin-top: 10%;
+
+
+
+
+    }
+    /* Create two equal columns that sits next to each other */
+    .column {
+      -ms-flex: 50%; /* IE 10 */
+      flex: 50%;
+     vertical-align: middle;
+     align-items: middle;
+     align-content: middle;
+     margin-top: 100px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 10px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+    
+    
+    .header {
+    
+        height: 100px;
+    
+    }
+    </style>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vilanova Website Design</title>
+        <link rel="stylesheet" href="stylemobile.css">
+    
+        <!--box icons-->
+        <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <!--google fonts-->
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <html lang="en">
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=0.4">
+            <title>Vilanova Website Design</title>
+            <link rel="stylesheet" href="stylemobile.css">
+        
+            <!--box icons-->
+            <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+        <!--google fonts-->
+        
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        </head>
+        <body>
+        <!--header-->
+        <header>
+          <a href="indexmobilept.html" class="logo">
+            <img src= "VILANOVA.png" alt="logo" width="80px">
+          </a>
+      
+          <ul class="navlist">
+            <a href="indexmobilept.html#home" class="active">Início  </a>
+            <a href="indexmobilept.html#shop">Planificação 3D</a>
+            <a href="indexmobilept.html#review">Reputação</a>
+            <a href="shopmobilept.html">Loja</a>
+          <a href= "indexmobilept.html#order"> Pedidos </a>
+            <a href="indexmobilept.html#contact"> Contactos</a>
+          </ul>
+          <div class="nav-icons">
+            <a href="indexmobile.html" class="portugal"><img src="Flag_of_England.svg.png" alt=""></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+          </div>
+      </header>
+
+
+
+</div>
+  
+<div class="headerr">
+
+    <h1> Portfolio <span> .</span></h1>
+
+</div>
+
+
+
+<!-- Photo Grid -->
+
+<div class="topphoto">
+    <img src="Image14.png" style="width:80%">
+</div>
+ <div class="row">
+
+    <div class="column">
+   
+        <img src="Image2.png" style="width:40%">
+        <img src="Image4.png" style="width:40%">
+        <img src="Image5.png" style="width:40%">
+        <img src="Image6.png" style="width:40%">
+        <img src="Image9.png" style="width:40%">
+        <img src="Image10.png" style="width:40%">
+        <img src="Image11.png" style="width:40%">
+        <img src="Image12.png" style="width:40%">
+        <img src="Image13.png" style="width:40%">
+        <img src="Image11.png" style="width:40%">
+      </div>
+
+ </div>   
+ 
+  
+
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+
+
+</script>
